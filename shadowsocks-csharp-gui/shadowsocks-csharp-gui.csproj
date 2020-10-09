@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Shadowsocks.GUI</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>Shadowsocks</AssemblyName>
+    <StartupObject>Shadowsocks.GUI.App</StartupObject>
+    <ApplicationIcon>Resources\shadowsocks.ico</ApplicationIcon>
+    <Authors>clowwindy &amp; community 2020</Authors>
+    <Company>clowwindy &amp; community 2020</Company>
+    <Version>5.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>5.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\shadowsocks.ico" />
+  </ItemGroup>
+
+</Project>
